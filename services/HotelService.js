@@ -1,0 +1,1 @@
+import HotelRepository from "./../repository/HotelRepository.js"
