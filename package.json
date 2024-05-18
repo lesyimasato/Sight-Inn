@@ -1,5 +1,5 @@
 {
-  "name": "pi2",
+  "name": "sight-inn",
   "version": "1.0.0",
   "description": "Projeto Integrador 2 - Hotel",
   "main": "index.js",
@@ -9,12 +9,14 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@barba/core": "^2.9.7",
     "bcrypt": "^5.1.1",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "express-session": "^1.18.0",
     "mongoose": "^8.3.4",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "popmotion": "^11.0.5"
   },
   "type": "module"
 }

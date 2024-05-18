@@ -24,10 +24,11 @@ app.get("/", function(req, res) {
     res.render("index")
 })
 
-app.listen(8000, function (erro) {
+const port = 8000;
+app.listen(port, function (erro) {
     if (erro) {
         console.log("Ocorreu um erro!")
     } else {
-        console.log("Servidor iniciado com sucesso!")
+        console.log(`Servidor iniciado com sucesso na porta ${port}!`)
     }
 })
