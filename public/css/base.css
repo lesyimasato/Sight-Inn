@@ -1,0 +1,37 @@
+:root {
+  --cor-primaria: #e7cc34;
+  --cor-secundaria: #fbfbfb;
+  --cor-terciaria: #9e9999;
+  --cor-texto-primario: #464444;
+  --cor-texto-bold: #3a3a3a;
+  --tamanho-fonte: 16px;
+  --estilo-fonte: "Outfit";
+  --font-size-strong: bold;
+  --font-size-thin: 300;
+}
+
+html {
+  font-size: var(--tamanho-fonte);
+  background-color: var(--cor-secundaria);
+}
+
+body {
+  font-family: var(--estilo-fonte);
+}
+
+p {
+  color: var(--cor-texto-primario);
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
